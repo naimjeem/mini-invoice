@@ -1,0 +1,30 @@
+{
+  "name": "mini-invoice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/naimjeem/mini-invoice.git"
+  },
+  "author": "Naim Jeem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naimjeem/mini-invoice/issues"
+  },
+  "homepage": "https://github.com/naimjeem/mini-invoice#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "bluebird": "^3.5.5",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3",
+    "path": "^0.12.7",
+    "sqlite3": "^4.1.0",
+    "umzug": "^2.2.0"
+  }
+}
